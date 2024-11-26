@@ -1,0 +1,26 @@
+body {
+    background-color: cadetblue;
+}
+
+.font {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 1rem;
+    margin: 0;
+    -webkit-text-stroke: .5px white;
+}
+
+button, .dropdown-menu {
+    border: 0;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+button:hover, .dropdown-item:hover {
+    background-color: gray;
+}
+
+button:active, .dropdown-item:active {
+    background-color: dimgray;
+}
